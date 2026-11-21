@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --svj-midnight: #11100e;
+  --svj-midnight-soft: #1a1815;
+  --svj-ivory: #f6f2ea;
+  --svj-ivory-card: #fbf9f5;
+  --svj-stone: #ebe4d7;
+  --svj-champagne: #c5a46d;
+  --svj-antique: #9e7f4b;
+  --svj-charcoal: #1c1a17;
+  --svj-taupe: #6d665c;
+  --svj-border-light: #e2d9c9;
+  --svj-border-dark: rgba(197, 164, 109, 0.22);
+}
+
+@theme inline {
+  --color-midnight: var(--svj-midnight);
+  --color-midnight-soft: var(--svj-midnight-soft);
+  --color-ivory: var(--svj-ivory);
+  --color-ivory-card: var(--svj-ivory-card);
+  --color-stone: var(--svj-stone);
+  --color-champagne: var(--svj-champagne);
+  --color-antique: var(--svj-antique);
+  --color-charcoal: var(--svj-charcoal);
+  --color-taupe: var(--svj-taupe);
+  --font-serif: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-jakarta), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-wordmark {
+  font-family: "Times New Roman", Times, Georgia, serif;
+}
+
+/* Subtle luxury scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--svj-ivory);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(197, 164, 109, 0.45);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--svj-champagne);
+}
+
+/* Hide scrollbars on touch carousels while preserving scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Safe area utility for iPhones */
+.pb-safe {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
