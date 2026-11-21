@@ -167,7 +167,7 @@ export function ProductCard({
                 {formatINR(product.priceInr)}
               </p>
               <p className="text-[10px] text-[#8C8477] font-light">
-                Illustrative demo price
+                Indicative price · Confirm in store
               </p>
             </div>
 

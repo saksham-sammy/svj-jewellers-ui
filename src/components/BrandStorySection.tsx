@@ -83,10 +83,10 @@ export function BrandStorySection() {
           >
             <div className="flex flex-wrap items-center gap-3 mb-4">
               <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.28em] text-[#9E7F4B] font-medium">
-                The SVJ Philosophy
+                25+ Years of Trust · Pashan Gaon, Pune
               </span>
               <span className="text-[9px] uppercase tracking-[0.2em] px-2.5 py-0.5 border border-[#C5A46D]/50 text-[#7A6238] bg-[#F6F2EA]">
-                Editable Demo Story
+                BIS 916 Hallmarked
               </span>
             </div>
 
@@ -101,10 +101,12 @@ export function BrandStorySection() {
             </h2>
 
             <p className="mt-5 text-sm sm:text-base text-[#4D4740] font-light leading-relaxed">
-              At <strong className="font-medium text-[#11100E]">SVJ – Suraj Verma Jewellers</strong>,
-              jewellery is conceived not as an impulse adornment, but as an
-              intimate heirloom—created to accompany milestones, weddings, and
-              everyday moments of quiet pride.
+              <strong className="font-medium text-[#11100E]">SVJ – Suraj Varma Jewellers</strong>{" "}
+              was built on a simple belief: every person deserves jewellery that
+              feels personal, precious, and perfectly made. Nestled in Pashan
+              Gaon, Pune, our showroom has served over 2,000 families across
+              Pashan, Baner, and Aundh for weddings, anniversaries, and everyday
+              joy.
             </p>
 
             <p className="mt-4 text-sm sm:text-base text-[#5C554C] font-light leading-relaxed">

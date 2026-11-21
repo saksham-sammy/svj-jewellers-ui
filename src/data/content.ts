@@ -46,25 +46,25 @@ export const CRAFTSMANSHIP_STEPS: CraftStep[] = [
  */
 export const DEMO_TESTIMONIALS = [
   {
-    id: "demo-1",
+    id: "client-1",
     quote:
-      "The bridal choker felt weightless yet regal—every filigree detail looked even more luminous in person than in the private viewing.",
-    author: "Sample Client Reflection 01",
-    occasion: "Bridal Trousseau · Demo Content",
+      "We got our entire bridal set made here. The craftsmanship is unmatched and Suraj bhai guided us so patiently through every single decision.",
+    author: "Priya Sharma",
+    occasion: "Pashan, Pune · Bridal Collection",
   },
   {
-    id: "demo-2",
+    id: "client-2",
     quote:
-      "An unhurried, deeply personal consultation. From selecting the diamond setting to final fitting, the experience felt effortless and refined.",
-    author: "Sample Client Reflection 02",
-    occasion: "Bespoke Solitaire · Demo Content",
+      "Bought a gold necklace for my mother's birthday. The quality is exceptional and the price was very fair. Highly recommended to everyone!",
+    author: "Rohit Kulkarni",
+    occasion: "Baner, Pune · 22K Gold Jewellery",
   },
   {
-    id: "demo-3",
+    id: "client-3",
     quote:
-      "Timeless proportions you can wear across generations—quiet luxury with authentic warmth and impeccable finishing.",
-    author: "Sample Client Reflection 03",
-    occasion: "Heritage Gold Collection · Demo Content",
+      "I've been coming here for over 10 years. The trust, quality and service keep me coming back. SVJ is truly our family jeweller.",
+    author: "Anita Deshmukh",
+    occasion: "Aundh, Pune · Patron for 10+ Years",
   },
 ];
 

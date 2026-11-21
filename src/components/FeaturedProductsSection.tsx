@@ -59,7 +59,7 @@ export function FeaturedProductsSection() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8 sm:mb-10">
           <div>
             <p className="text-[10px] sm:text-[11px] uppercase tracking-[0.28em] text-[#9E7F4B] font-medium mb-3">
-              Curated Showcase · Demo Catalogue
+              Curated Showcase · BIS Hallmarked
             </p>
             <h2
               id="featured-heading"
@@ -138,7 +138,7 @@ export function FeaturedProductsSection() {
             href="/collections"
             className="inline-flex items-center gap-3 border border-[#11100E] text-[#11100E] px-9 py-4 text-[11px] font-medium uppercase tracking-[0.24em] hover:bg-[#11100E] hover:text-[#F6F2EA] transition-colors duration-300"
           >
-            <span>Explore Full Catalogue ({PRODUCTS.length} Demo Pieces)</span>
+            <span>Explore Full Catalogue ({PRODUCTS.length} Signature Pieces)</span>
             <ArrowRight className="h-3.5 w-3.5" />
           </Link>
         </div>

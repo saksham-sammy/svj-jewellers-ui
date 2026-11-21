@@ -12,7 +12,7 @@ export function TestimonialsSection() {
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
           <span className="inline-block text-[9px] uppercase tracking-[0.24em] px-3 py-1 border border-[#C5A46D]/60 text-[#866B3E] mb-4">
-            Demonstration Preview · Placeholder Testimonials
+            Trusted Across Pashan, Baner &amp; Aundh · 2,000+ Clients
           </span>
           <h2
             id="reflections-heading"

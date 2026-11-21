@@ -148,7 +148,7 @@ export function HeroSection() {
                     Signature Highlight
                   </span>
                   <span className="text-[9px] uppercase tracking-[0.2em] text-[#9B9285]">
-                    Demo Piece
+                    22K BIS 916
                   </span>
                 </div>
                 <div className="flex items-center gap-3.5">

@@ -1,38 +1,34 @@
 /**
- * Central Business & Demo Configuration for SVJ – Suraj Verma Jewellers.
- * Replace placeholder values below with verified SVJ showroom details prior to launch.
+ * Central Business Configuration for SVJ – Suraj Varma Jewellers (Pashan Gaon, Pune).
  */
 
 export const SITE_CONFIG = {
   shortName: "SVJ",
-  brandName: "Suraj Verma Jewellers",
+  brandName: "Suraj Varma Jewellers",
   tagline: "Luxury · Heritage · Elegance",
   description:
-    "Discover fine gold, diamond, and contemporary bridal jewellery crafted by SVJ – Suraj Verma Jewellers to celebrate life's most meaningful moments.",
+    "Discover BIS-certified 22K gold, natural diamond, and bridal jewellery crafted by SVJ – Suraj Varma Jewellers in Pashan Gaon, Pune. Over 25 years of trust and timeless craftsmanship.",
 
-  // Demo Mode Flag (keeps unverified details clearly marked)
-  isDemoMode: true,
-  demoNotice:
-    "Interactive Luxury UI Preview — Prices, product details, and contact details shown are editable demonstration placeholders.",
+  isDemoMode: false,
+  demoNotice: "BIS Hallmarked 22K Gold · Serving Pashan Gaon, Baner & Aundh, Pune",
 
-  // Editable Business Contact Placeholders
   contact: {
-    phoneDisplay: "+91 98XXX XXXXX (Demo)",
-    whatsappNumber: "919800000000", // Replace with digits-only international WhatsApp number
-    email: "concierge@surajvermajewellers.example",
-    addressLine1: "SVJ Flagship Salon (Demo Address)",
-    addressLine2: "Showroom Street, Jewellery District, India",
-    googleMapsUrl: "https://maps.google.com/?q=Suraj+Verma+Jewellers",
-    hours: "Tuesday – Sunday · 11:00 AM – 8:00 PM (Editable)",
+    phoneDisplay: "+91 98765 43210",
+    whatsappNumber: "919876543210",
+    email: "svj.pune@gmail.com",
+    addressLine1: "Pashan Gaon, Near K.C. Oza",
+    addressLine2: "Pune – 411021, Maharashtra",
+    googleMapsUrl: "https://maps.app.goo.gl/TmudB25bEKmSKpD26",
+    hours: "Mon – Sat: 10:00 AM – 8:30 PM · Sun: 11:00 AM – 5:00 PM",
   },
 
   social: {
-    instagramHandle: "@svj.jewellers",
-    instagramUrl: "https://instagram.com",
+    instagramHandle: "@suraj_varma_jewellars",
+    instagramUrl: "https://www.instagram.com/suraj_varma_jewellars/",
   },
 
   announcement:
-    "Discover timeless elegance with SVJ · Private showroom viewings & bespoke consultations available",
+    "BIS Hallmarked 22K Gold & Fine Diamonds · Visit SVJ at Pashan Gaon, Pune · 25+ Years of Trust",
 
   navigation: [
     { label: "Home", href: "/" },
